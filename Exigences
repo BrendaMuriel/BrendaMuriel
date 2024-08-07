@@ -95,6 +95,8 @@
 3.2.3 L'administrateur assigne des privilèges spécifiques au groupe.
 3.2.4 L'administrateur assigne des utilisateurs au groupe.
 3.2.5 Le système enregistre les modifications.
+3.2.5.1 Si des informations obligatoires sont manquantes, le système affiche un message d'erreur.
+3.2.5.2 Si la soumission échoue, l'administrateur reçoit une notification d'erreur.
 
 3.3 Suivi des Actions des Utilisateurs
 3.3.1 Le système enregistre toutes les actions des utilisateurs.
