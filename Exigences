@@ -64,6 +64,15 @@
 2.3.3.1 Si la suppression échoue, l'administrateur reçoit une notification d'erreur.
 2.3.4 Le système supprime le type de requête.
 
+2.4 Repérer et Modifier une Requête
+2.4.1 L'employé recherche la requête par ID, type, ou autre critère de filtrage.
+2.4.1.1 Si la requête n'est pas trouvée, le système affiche un message d'erreur et propose de réessayer
+2.4.2 Le système affiche la requête recherchée avec ses détails.
+2.4.3 L'employé modifie les détails nécessaires (description, priorité, etc.) et soumet.
+2.4.4 Le système envoie une notification au chef de département pour approuver ou rejeter la requête modifiée.
+2.4.4.1 Si la modification est rejetée par le chef de département, l'employé reçoit une notification avec les raisons du rejet et peut réviser ou annuler la modification
+2.4.5 Le système enregistre l'état final de la requête .
+
 
 3 Gestion de la Sécurité
 
