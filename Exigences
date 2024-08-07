@@ -7,11 +7,15 @@
 1.1.3.1 Si l'employé omet de remplir un champ obligatoire, le système affiche un message d'erreur.
 1.1.4 Il ajoute une description optionnelle.
 1.1.5 Il soumet la requête.
+1.1.5.1 Si la soumission échoue, l'employé reçoit une notification d'erreur.
 1.1.6 Le système enregistre la requête.
 1.1.7 Le système envoie une notification au chef du département concerné.
 
 1.2 Approuver, Annuler ou Rejeter de la Requête
 1.2.1 Le chef du département reçoit une notification de la nouvelle requête.
+1.2.1.1 Si la requête est rejetée,
+1.2.1.1.1 L’employé peut ajouter plus d'informations et la renvoyer.
+1.2.1.1.2 L’employé peut annuler la requête
 1.2.1.2 Si la requête est annulée, l'employé reçoit une notification d'annulation.
 1.2.2 Il accède à la requête via le système.
 1.2.3 Il choisit d'approuver, rejeter ou annuler la requête.
@@ -105,11 +109,13 @@
 
 4.1 Interaction avec le Système de Gestion des Ressources Humaines
 4.1.1 Le système de gestion des requêtes envoie une demande d'information au système de gestion des ressources humaines.
+4.1.1.1 Si le système de gestion des ressources humaines est indisponible, le système de gestion des requêtes affiche un message d'erreur et réessaie plus tard.
 4.1.2 Le système de gestion des ressources humaines répond avec les informations demandées.
 4.1.3 Le système de gestion des requêtes utilise les informations pour authentifier les utilisateurs et acheminer les requêtes.
 
 4.2 Interaction avec le Système Comptable
 4.2.1 Le système de gestion des requêtes envoie une demande d'information au système comptable.
+4.2.1.1 Si le système comptable est indisponible, le système de gestion des requêtes affiche un message d'erreur et réessaie plus tard.
 4.2.2 Le système comptable répond avec les informations demandées.
 4.2.3 Le système de gestion des requêtes utilise les informations pour suivre les dépenses associées aux requêtes.
 
