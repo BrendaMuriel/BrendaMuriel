@@ -1,93 +1,111 @@
-1Gestion des Requêtes
-1.1Création d'une Requête
-1.1.1L'employé accède à l'interface de création de requête.
-1.1.2Il sélectionne le type de requête.
-1.1.3Il entre la priorité.
-1.1.3.1Si l'employé omet de remplir un champ obligatoire, le système affiche un message d'erreur.
-1.1.4Il ajoute une description optionnelle.
-1.1.5Il soumet la requête.
-1.1.6Le système enregistre la requête.
-1.1.7Le système envoie une notification au chef du département concerné.
-1.2: Approuver, Annuler ou Rejeter de la Requête
-1.2.1Le chef du département reçoit une notification de la nouvelle requête.
-1.2.1.2Si la requête est annulée, l'employé reçoit une notification d'annulation.
-1.2.2Il accède à la requête via le système.
-1.2.3Il choisit d'approuver, rejeter ou annuler la requête.
-1.2.4Le système enregistre la décision.
-1.2.5Le système notifie l'employé de la décision.
-1.3Affectation de la Requête au Chef TI
-1.3.1Le système assigne automatiquement la requête approuvée au Chef TI responsable de l’exécuter.
-1.3.2Le Chef TI reçoit une notification de la nouvelle requête.
-1.3.3Le chef TI accède à la requête via le système.
-1.3.4Le chef TI assigne la requête à un membre de son équipe.
-1.3.4.1Si aucun membre de l'équipe n'est disponible, le Chef TI peut mettre la requête en attente.
-1.3.4.2Si la requête est urgente, le Chef TI peut la prioriser et la réassigner.
-1.3.5Le système enregistre l'assignation et notifie l'employé assigné.
+1 Gestion des Requêtes
+
+1.1 Création d'une Requête
+1.1.1 L'employé accède à l'interface de création de requête.
+1.1.2 Il sélectionne le type de requête.
+1.1.3 Il entre la priorité.
+1.1.3.1 Si l'employé omet de remplir un champ obligatoire, le système affiche un message d'erreur.
+1.1.4 Il ajoute une description optionnelle.
+1.1.5 Il soumet la requête.
+1.1.6 Le système enregistre la requête.
+1.1.7 Le système envoie une notification au chef du département concerné.
+
+1.2 Approuver, Annuler ou Rejeter de la Requête
+1.2.1 Le chef du département reçoit une notification de la nouvelle requête.
+1.2.1.2 Si la requête est annulée, l'employé reçoit une notification d'annulation.
+1.2.2 Il accède à la requête via le système.
+1.2.3 Il choisit d'approuver, rejeter ou annuler la requête.
+1.2.4 Le système enregistre la décision.
+1.2.5 Le système notifie l'employé de la décision.
+
+1.3 Affectation de la Requête au Chef TI
+1.3.1 Le système assigne automatiquement la requête approuvée au Chef TI responsable de l’exécuter.
+1.3.2 Le Chef TI reçoit une notification de la nouvelle requête.
+1.3.3 Le chef TI accède à la requête via le système.
+1.3.4 Le chef TI assigne la requête à un membre de son équipe.
+1.3.4.1 Si aucun membre de l'équipe n'est disponible, le Chef TI peut mettre la requête en attente.
+1.3.4.2 Si la requête est urgente, le Chef TI peut la prioriser et la réassigner.
+1.3.5 Le système enregistre l'assignation et notifie l'employé assigné.
+
 1.4: Exécution de la Requête par l'Employé
-1.4.1L'employé assigné reçoit une notification de la nouvelle tâche.
-1.4.2L’employé accède à la tâche via le système.
-1.4.3L’employé accepte ou rejette la tâche.
-1.4.3.1Si l'employé rejette la tâche, il doit fournir une justification.
-1.4.3.2Si la tâche est rejetée, le Chef TI la réassigne à un autre employé
-1.4.4S'il accepte, il exécute la tâche.
-1.4.5L’employé change l'état de la requête à « Exécutée » dans le système.
-1.4.6Le système notifie toutes les personnes concernées de l'exécution.
-2Gestion des Types de Requêtes
+1.4.1 L'employé assigné reçoit une notification de la nouvelle tâche.
+1.4.2 L’employé accède à la tâche via le système.
+1.4.3 L’employé accepte ou rejette la tâche.
+1.4.3.1 Si l'employé rejette la tâche, il doit fournir une justification.
+1.4.3.2 Si la tâche est rejetée, le Chef TI la réassigne à un autre employé
+1.4.4 S'il accepte, il exécute la tâche.
+1.4.5 L’employé change l'état de la requête à « Exécutée » dans le système.
+1.4.6 Le système notifie toutes les personnes concernées de l'exécution.
+
+
+2 Gestion des Requêtes
+
 2.1: Création d'un Type de Requête
-2.1.1L'administrateur accède à l'interface de gestion des types de requêtes.
-2.1.2L’administrateur clique sur "Créer un nouveau type".
-2.1.3L’administrateur entre le nom, la description, le département responsable, l'employé responsable, le temps maximal de service, et le coût approximé.
-2.1.3.1Si des informations obligatoires sont manquantes, le système affiche un message d'erreur.
-2.1.4L’administrateur soumet les informations
-2.1.4.1Si la soumission échoue, l'administrateur reçoit une notification d'erreur.
-1.1.1Le système enregistre le nouveau type de requête
-2.2Modification d'un Type de Requête
-2.2.1L'administrateur accède à l'interface de gestion des types de requêtes.
-2.2.2L’administrateur sélectionne le type de requête à modifier.
-2.2.3L’administrateur modifie les informations nécessaires.
-2.2.3.1Si des informations obligatoires sont manquantes, le système affiche un message d'erreur.
-2.2.4L’administrateur corrige les modifications et resoumet.
-2.2.4.1Si la soumission échoue, l'administrateur reçoit une notification d'erreur.
-2.2.5Le système enregistre les modifications.
-2.3Suppression d'un Type de Requête
-2.3.1L'administrateur accède à l'interface de gestion des types de requêtes.
-2.3.2L’administrateur sélectionne le type de requête à supprimer.
-2.3.3L’administrateur confirme la suppression.
-2.3.3.1Si la suppression échoue, l'administrateur reçoit une notification d'erreur.
-2.3.4Le système supprime le type de requête.
-3Gestion de la Sécurité
-3.1: Authentification des Utilisateurs
-3.1.1L'utilisateur accède à la page de connexion.
-3.1.2L'utilisateur entre ses identifiants (nom d'utilisateur et mot de passe).
-3.1.2.1Si l'utilisateur oublie son mot de passe, il peut cliquer sur "Mot de passe oublié" pour réinitialiser son mot de passe
-3.1.3L'utilisateur soumet les informations.
-3.1.4Le système vérifie les informations auprès du système de gestion des ressources humaines.
-3.1.4.1Si les informations sont incorrectes, le système affiche un message d'erreur. 
-3.1.5Si les informations sont correctes, l'utilisateur est authentifié et accède au système.
-3.2: Gestion des Groupes et des Privilèges
-3.2.1L'administrateur accède à l'interface de gestion des groupes.
-3.2.2L'administrateur crée un nouveau groupe ou modifie un groupe existant.
-3.2.3L'administrateur assigne des privilèges spécifiques au groupe.
-3.2.4L'administrateur assigne des utilisateurs au groupe.
-3.2.5Le système enregistre les modifications.
-3.3Suivi des Actions des Utilisateurs
-3.3.1Le système enregistre toutes les actions des utilisateurs.
-3.3.2L'administrateur accède à l'interface de suivi des actions.
-3.3.3L'administrateur sélectionne les critères de recherche (date, utilisateur, type d'action).
-3.3.4L'administrateur lance la recherche.
-3.3.4.1Si aucun résultat ne correspond aux critères, le système affiche un message approprié.
-3.3.5Le système affiche les résultats de la recherche.
-4Intégration avec d'autres Systèmes
-4.1Interaction avec le Système de Gestion des Ressources Humaines
-4.1.1Le système de gestion des requêtes envoie une demande d'information au système de gestion des ressources humaines.
-4.1.2Le système de gestion des ressources humaines répond avec les informations demandées.
-4.1.3Le système de gestion des requêtes utilise les informations pour authentifier les utilisateurs et acheminer les requêtes.
-4.2Interaction avec le Système Comptable
-4.2.1Le système de gestion des requêtes envoie une demande d'information au système comptable.
-4.2.2Le système comptable répond avec les informations demandées.
-4.2.3Le système de gestion des requêtes utilise les informations pour suivre les dépenses associées aux requêtes.
-4.3Synchronisation des Données entre les Systèmes
-4.3.1Le système de gestion des requêtes effectue une synchronisation périodique des données avec les autres systèmes.
-4.3.1.1Si une synchronisation échoue, le système de gestion des requêtes affiche un message d'erreur et réessaie plus tard.
-4.3.2Le système de gestion des requêtes envoie les données mises à jour aux systèmes concernés.
-4.3.3Les systèmes concernés répondent avec les confirmations de réception
+2.1.1 L'administrateur accède à l'interface de gestion des types de requêtes.
+2.1.2 L’administrateur clique sur "Créer un nouveau type".
+2.1.3 L’administrateur entre le nom, la description, le département responsable, l'employé responsable, le temps maximal de service, et le coût approximé.
+2.1.3.1 Si des informations obligatoires sont manquantes, le système affiche un message d'erreur.
+2.1.4 L’administrateur soumet les informations
+2.1.4.1 Si la soumission échoue, l'administrateur reçoit une notification d'erreur.
+
+2.2 Modification d'un Type de Requête
+2.2.1 L'administrateur accède à l'interface de gestion des types de requêtes.
+2.2.2 L’administrateur sélectionne le type de requête à modifier.
+2.2.3 L’administrateur modifie les informations nécessaires.
+2.2.3.1 Si des informations obligatoires sont manquantes, le système affiche un message d'erreur.
+2.2.4 L’administrateur corrige les modifications et resoumet.
+2.2.4.1 Si la soumission échoue, l'administrateur reçoit une notification d'erreur.
+2.2.5 Le système enregistre les modifications.
+
+2.3 Suppression d'un Type de Requête
+2.3.1 L'administrateur accède à l'interface de gestion des types de requêtes.
+2.3.2 L’administrateur sélectionne le type de requête à supprimer.
+2.3.3 L’administrateur confirme la suppression.
+2.3.3.1 Si la suppression échoue, l'administrateur reçoit une notification d'erreur.
+2.3.4 Le système supprime le type de requête.
+
+
+3 Gestion de la Sécurité
+
+3.1 Authentification des Utilisateurs
+3.1.1 L'utilisateur accède à la page de connexion.
+3.1.2 L'utilisateur entre ses identifiants (nom d'utilisateur et mot de passe).
+3.1.2.1 Si l'utilisateur oublie son mot de passe, il peut cliquer sur "Mot de passe oublié" pour réinitialiser son mot de passe
+3.1.3 L'utilisateur soumet les informations.
+3.1.4 Le système vérifie les informations auprès du système de gestion des ressources humaines.
+3.1.4.1 Si les informations sont incorrectes, le système affiche un message d'erreur. 
+3.1.5 Si les informations sont correctes, l'utilisateur est authentifié et accède au système.
+
+3.2 Gestion des Groupes et des Privilèges
+3.2.1 L'administrateur accède à l'interface de gestion des groupes.
+3.2.2 L'administrateur crée un nouveau groupe ou modifie un groupe existant.
+3.2.3 L'administrateur assigne des privilèges spécifiques au groupe.
+3.2.4 L'administrateur assigne des utilisateurs au groupe.
+3.2.5 Le système enregistre les modifications.
+
+3.3 Suivi des Actions des Utilisateurs
+3.3.1 Le système enregistre toutes les actions des utilisateurs.
+3.3.2 L'administrateur accède à l'interface de suivi des actions.
+3.3.3 L'administrateur sélectionne les critères de recherche (date, utilisateur, type d'action).
+3.3.4 L'administrateur lance la recherche.
+3.3.4.1 Si aucun résultat ne correspond aux critères, le système affiche un message approprié.
+3.3.5 Le système affiche les résultats de la recherche.
+
+
+4 Intégration avec d'autres Systèmes
+
+4.1 Interaction avec le Système de Gestion des Ressources Humaines
+4.1.1 Le système de gestion des requêtes envoie une demande d'information au système de gestion des ressources humaines.
+4.1.2 Le système de gestion des ressources humaines répond avec les informations demandées.
+4.1.3 Le système de gestion des requêtes utilise les informations pour authentifier les utilisateurs et acheminer les requêtes.
+
+4.2 Interaction avec le Système Comptable
+4.2.1 Le système de gestion des requêtes envoie une demande d'information au système comptable.
+4.2.2 Le système comptable répond avec les informations demandées.
+4.2.3 Le système de gestion des requêtes utilise les informations pour suivre les dépenses associées aux requêtes.
+
+4.3 Synchronisation des Données entre les Systèmes
+4.3.1 Le système de gestion des requêtes effectue une synchronisation périodique des données avec les autres systèmes.
+4.3.1.1 Si une synchronisation échoue, le système de gestion des requêtes affiche un message d'erreur et réessaie plus tard.
+4.3.2 Le système de gestion des requêtes envoie les données mises à jour aux systèmes concernés.
+4.3.3 Les systèmes concernés répondent avec les confirmations de réception
