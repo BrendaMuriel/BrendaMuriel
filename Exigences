@@ -41,6 +41,15 @@
 1.4.5 L’employé change l'état de la requête à « Exécutée » dans le système.
 1.4.6 Le système notifie toutes les personnes concernées de l'exécution.
 
+1.5 Repérer et Modifier une Requête
+1.5.1L'employé recherche la requête par ID, type, ou autre critère de filtrage.
+1.5.1.1Si la requête n'est pas trouvée, le système affiche un message d'erreur et propose de réessayer
+1.5.2Le système affiche la requête recherchée avec ses détails.
+1.5.3L'employé modifie les détails nécessaires (description, priorité, etc.) et soumet.
+1.5.4Le système envoie une notification au chef de département pour approuver ou rejeter la requête modifiée.
+1.5.4.1 Si la modification est rejetée par le chef de département, l'employé reçoit une notification avec les raisons du rejet et peut réviser ou annuler la modification
+1.5.5Le système enregistre l'état final de la requête .
+
 
 2 Gestion des types Requêtes
 
